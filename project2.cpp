@@ -52,8 +52,7 @@ void findavgTime(Process proc[], int n)
 }
 int main()
 {
-	
-    Process proc[] = {{6, 12}, {5, 10}, {2, 4}, {4, 8},{3,6}};
+    Process proc[] = {{6, 12}, {5, 10}, {2, 4}, {4, 8} , {3,6}};
     int n = sizeof proc / sizeof proc[0];
 	    
     cout << "\n\n\t\t\tLJF\t\t\t\t\t\n";
@@ -69,8 +68,5 @@ int main()
     for (int i = 0 ; i < n; i++)
     cout << proc[i].pid <<" ";
     findavgTime(proc, n);
-    
-
-    
     return 0;
 }
