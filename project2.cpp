@@ -44,7 +44,6 @@ void findavgTime(Process proc[], int n)
              << proc[i].bt << "\t " << wt[i]
              << "\t\t " << tat[i] <<endl;
     }
- 
     cout << "Average waiting time = "
          << (float)total_wt / (float)n;
     cout << "\nAverage turn around time = "
